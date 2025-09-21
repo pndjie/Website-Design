@@ -3,16 +3,21 @@ body{
     scroll-behavior: smooth;
 }
 
-.heather{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 2em;
+.navigasi{
+    background-color: rgb(96, 140, 165);
+    width: 100%;
+    height: 10vh;;
+}
+
+.navigasiTeks{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    padding-top: 100000px;
+    font-family: sans-serif;
+    
 }
 
 .body{
-    background-color: blue;
-    width: 10vh;
-    height: 10vh;
+  
 }
