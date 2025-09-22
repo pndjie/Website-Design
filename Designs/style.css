@@ -25,7 +25,7 @@ html::-webkit-scrollbar {
     height: 100vh;
     background: linear-gradient(0deg, #b7e2c7 0%, #eaf5ea 100%);
     position: relative;
-    overflow: hidden; /* tambahkan ini */
+    overflow: hidden;
 }
 
 .img1 {
@@ -34,14 +34,16 @@ html::-webkit-scrollbar {
     width: 500px;
     left: 150px;
     top: 0; 
+    pointer-events: none;
 }
 
 .img {
-    width: 600px;
+    width: 750px;
     height: auto;
     position: relative;
-    left: 65%;
-    top: 10px;
+    left: 58%;
+    top: 200px;
+    pointer-events: none;
 }
 
 .navigasi {
@@ -82,8 +84,8 @@ html::-webkit-scrollbar {
 }
 
 #MainTitle {
-    position: relative;
-    bottom: 700px;
+    position: absolute;
+    bottom: 400px;
     width: 4px;
     left: 40%;
     color: rgb(110, 107, 107);
